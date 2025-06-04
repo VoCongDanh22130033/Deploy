@@ -1,0 +1,44 @@
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# Bỏ qua tất cả target/ nhưng giữ lại web.war
+target/
+!target/web.war
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Build output folders
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs, temp, OS files
+*.log
+*.tmp
+*.swp

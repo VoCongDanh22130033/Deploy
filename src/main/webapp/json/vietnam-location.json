@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Bình Dương",
+    "districts": [
+      {
+        "name": "Dĩ An",
+        "wards": [
+          "Tân Đông Hiệp",
+          "Đông Hòa",
+          "Dĩ An",
+          "Tân Bình"
+        ]
+      },
+      {
+        "name": "Thuận An",
+        "wards": [
+          "An Phú",
+          "Bình Chuẩn",
+          "Lái Thiêu"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "TP. Hồ Chí Minh",
+    "districts": [
+      {
+        "name": "Quận 1",
+        "wards": [
+          "Bến Nghé",
+          "Bến Thành",
+          "Cô Giang"
+        ]
+      },
+      {
+        "name": "Quận 3",
+        "wards": [
+          "Phường 1",
+          "Phường 2",
+          "Phường 3"
+        ]
+      }
+    ]
+  }
+]

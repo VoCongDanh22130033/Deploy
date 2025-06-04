@@ -1,0 +1,58 @@
+.nav-category {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 20px;
+}
+
+.nav-category .tab {
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-category .tab:hover {
+    color: #ff6600;
+}
+
+.nav-category .tab.active {
+    color: #ff6600;
+}
+
+.nav-category .tab.active::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 50%;
+    height: 3px;
+    background-color: #ff6600;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+/* CSS cho nút Load More */
+.load-more {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.load-more button {
+    background-color: #ff6600;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.load-more button:hover {
+    background-color: #cc5200;
+}

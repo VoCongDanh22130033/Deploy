@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #2a2d3e;
+    color: #fff;
+}
+
+.breadcrumb {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #2a2d3e;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.breadcrumb a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb a:hover {
+    color: #1e90ff;
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    color: #ffffff;
+    font-weight: normal;
+}
+
+
+.form-add {
+    padding: 20px;
+}
+
+.container-form {
+    margin: 26px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    color: #333;
+}
+
+.container-layout {
+    max-width: 1000px; /* Định kích thước phù hợp cho form */
+    margin: 0 auto; /* Căn giữa form */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Thêm shadow để nổi bật hơn */
+}
+
+.container-form h2 {
+    text-align: left;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.container-form .form-group {
+    margin-bottom: 15px;
+}
+
+.container-form .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Khi focus vào select */
+.form-group select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Kiểu dropdown khi hover */
+.form-group select:hover {
+    border-color: #0056b3;
+}
+
+/* Tạo hiệu ứng khi click */
+.form-group select:active {
+    transform: scale(0.98);
+}
+
+.container-form .form-group input[type="text"],
+.container-form .form-group input[type="file"],
+.container-form .form-group input[type="email"],
+.container-form .form-group input[type="date"], .container-form .form-group input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.container-form .form-group .file-input {
+    display: flex;
+    align-items: center;
+}
+
+.container-form .form-group .file-input button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.container-form .form-group .file-input button:hover {
+    background-color: #0056b3;
+}
+
+.container-form .form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-form .form-actions .save-button,
+.container-form .form-actions .cancel-button {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 48%;
+}
+
+.container-form .form-actions .save-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.container-form .form-actions .save-button:hover {
+    background-color: #218838;
+}
+
+.container-form .form-actions .cancel-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.container-form .form-actions .cancel-button:hover {
+    background-color: #c82333;
+}
+
+
+/* table */
+table.dataTable thead th, table.dataTable thead td,
+table.dataTable tfoot th, table.dataTable tfoot td {
+    text-align: center;
+    font-size: small;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+    text-align: center;
+    font-size: small;
+}

@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      DB_HOST: mysql.railway.internal
+      DB_PORT: 36925
+      DB_USERNAME: root
+      DB_PASSWORD: qggFeXDcMNWFCTRBLNMOdfuzzjqbELTR
+      DB_NAME: railway
